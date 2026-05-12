@@ -1,0 +1,7 @@
+temperature = float(input("Enter the temperature"))
+
+if temperature > 30 :
+    print("You can wear light and soft clothes")
+
+else:
+    print("You should wear jacket and pullover to not catch cold")
