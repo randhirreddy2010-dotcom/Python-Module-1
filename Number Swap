@@ -1,0 +1,6 @@
+a = float(input("Enter the first value"))
+b = float(input("Enter the second value"))
+c = float(input("Enter the third value"))
+print("Before swapping: a = {}, b = {}, c = {}".format(a, b, c))
+a, b, c = c, a, b
+print("After swapping: a = {}, b = {}, c = {}".format(a, b, c))
