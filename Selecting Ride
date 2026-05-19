@@ -1,0 +1,50 @@
+print("Select your ride:")
+print("1-Bike")
+print("2-Car")
+
+choice = int(input("Select your choice of transporation"))
+
+if (choice ==1):
+    print(" What type of bike?")
+    print("1- Scooty")
+    print("2- Scooter")
+    print("3- Chopper")
+    print("4- Sports bike")
+    print("5- normal mundane bike")
+choice2 = int(input("Enter your choice from the above 5"))
+if choice2 == 1:
+    print("You have chosen scooty")
+elif choice2 == 2:
+    print("You have chosen scooter")
+elif choice2 == 3:
+    print("You have chosen Chopper")
+elif choice2 == 4:
+    print("You have chosen Sports Bike")
+else:
+    print("You have chosen normal mundane bike")
+
+if choice == 2:
+    print("What type of car?")
+    print("1-Sedan")
+    print("2-SUV")
+    print("3-Coupe")
+    print("4-Hatchback")
+    print("5-Sports")
+    print("6-Luxury")
+if choice == 2:
+    print("Enter ur choice from the below options")
+    choice3 = int(input("Enter your choice from the above 6"))
+    if choice3 == 1:
+        print("You have chosen sedan")
+    elif choice3 == 2:
+        print("You have chosen SUV")
+    elif choice3 == 3:
+        print("You have chosen coupe")
+    elif choice3 == 4:
+        print("You have chosen hatchback")
+    elif choice3 == 5:
+        print("You have chosen sports car")
+    else:
+        print("You have chosen luxury car")
+
+
