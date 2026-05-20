@@ -1,0 +1,4 @@
+n = int(input("Enter a number as base:"))
+power = int(input("Enter a number as power"))
+calculator = n**power
+print("the power of number is", calculator)
