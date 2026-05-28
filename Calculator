@@ -1,0 +1,29 @@
+def add(P, Q):
+    return(P + Q)
+def subtract(P, Q):
+    return( P - Q)
+def multiply(P, Q):
+    return(P * Q)
+def divide(P, Q):
+    return(P / Q)
+print("Select prefered operation:")
+print("A. Addition")
+print("B. Subtraction")
+print("C. Multiplication")
+print("D. Division")
+choice = input("Enter choice (A/B/C/D)")
+num_1 = int(input("Enter first number"))
+num_2 = int(input("Enter the second number"))
+if choice.upper() == 'A':
+    print(num_1, '+', num_2, '=', add(num_1, num_2))
+elif choice.upper() == 'B':
+    print(num_1, '-', num_2, '=', subtract(num_1, num_2))
+elif choice.upper() == 'C':
+    print(num_1, '*', num_2, '=', multiply(num_1, num_2))
+elif choice.upper() == 'D':
+    if num_2 == 0:
+        print('Error: Division by zero')
+    else:
+        print(num_1, '/', num_2, '=', divide(num_1, num_2))
+else:
+    print('Invalid input')
