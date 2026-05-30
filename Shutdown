@@ -1,0 +1,34 @@
+def system(shutdown):
+    password = int(input("Enter password for system shutdown: "))
+    name = input("Enter Name for Shutdown: ")
+    choice = input("Enter choice (YES or NO): ").strip().upper()
+    
+
+password = int(input("Enter password for system shutdown: "))
+
+if password == 4567:
+    print("Step 1 of shutdown complete")
+    
+  
+    name = input("Enter Name for Shutdown: ")
+    
+    if name == "Dhriti":
+        print("Name correct, Step 2 complete")
+        
+        
+        choice = input("Enter choice (YES or NO): ").strip().upper()
+        
+        if choice == "YES":
+            print("Step 3 complete, System shutting down")
+        elif choice == "NO":
+            print("Abort Shutdown")
+        else:
+            print("Sorry, shutdown protocol failed")
+            
+    else:
+        
+        print("Sorry, incorrect name.")
+        
+else:
+    
+    print("Sorry, incorrect password.")
